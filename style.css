@@ -1,28 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap');
+
 body{
   margin:0;
-  font: normal 16px Arial, Helvetica, sand-serif;
+  font-family: 'Righteous', cursive;
   color:#333;
   width: 100%;
   height:100%;
 }
 
 #particles-js{
-  background: #202124;
-  height: 100%;
+    height: 100%;
+    background-color: #202124;
+    /*background-image: url('');*/
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
 }
 
 
 h1 {
-  font-size: 4em;
-  color: white;
-  position:absolute;
-  top:20%;
-  left:50%;
-}
-h2 {
-  font-size: 3em;
+  font-size: 7em;
   color: white;
   position:absolute;
   top:30%;
-  left:55%;
+  left:30%;
+}
+h2 {
+  font-size: 4.5em;
+  color: white;
+  position:absolute;
+  top:50%;
+  left:40%;
 }
