@@ -26,8 +26,11 @@ body{
 #logo {
   padding:30px;
   position: absolute;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
+  top:30%;
+  left:37%;
+
 }
 
 h1 {
@@ -38,11 +41,11 @@ h1 {
   left:30%;
 }
 h2 {
-  font-size: 4.5em;
+  font-size: 1em;
   color: white;
   position:absolute;
-  top:45%;
-  left:50%;
+  top:50%;
+  left:48%;
 }
 
 
@@ -99,23 +102,23 @@ h2 {
   #logo {
     padding:30px;
     position: absolute;
-    height: 90px;
-    width: 90px;
+    height: 200px;
+    width: 200px;
   }
 
   h1 {
-    font-size: 45px;
-    color: red;
+    font-size: 100px;
+    color: white;
     position:absolute;
     top:35%;
-    left:10%;
+    left:15%;
   }
   h2 {
-    font-size: 40px;
+    font-size: 80px;
     color: white;
     position:absolute;
     top:42%;
-    left:30%;
+    left:37%;
   }
 
 }
