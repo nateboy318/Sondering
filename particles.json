@@ -1,71 +1,110 @@
 {
-  "particles":{
-    "number":{
-      "value":100
+  "particles": {
+    "number": {
+      "value": 50,
+      "density": {
+        "enable": true,
+        "value_area": 200
+      }
     },
-    "color":{
-      "value":"#fff"
+    "color": {
+      "value": "#20b5ba"
     },
-    "shape":{
-      "type":"circle",
-      "stroke":{
-        "width":0.2,
-        "color":"#ccc"
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#ffffff"
       },
-      "image":{
-        "src":"http://www.iconsdb.com/icons/preview/white/contacts-xxl.png"
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 400,
+        "height": 100
       }
     },
-    "opacity":{
-      "value":0.2,
-      "random":true,
-      "anim":{
-        "enable":false,
-        "speed":1
-      }
-    },
-    "size":{
-      "value": 5,
-      "random":false,
-      "anim":{
+    "opacity": {
+      "value": 0,
+      "random": true,
+      "anim": {
         "enable": false,
-        "speed":30
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
       }
     },
-    "line_linked":{
+    "size": {
+      "value": 2,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
       "enable": true,
       "distance": 150,
+      "color": "#ffffff",
       "opacity": 0.2,
-      "color":"#20b5ba",
-      "width":1
+      "width": 1
     },
-    "move":{
-      "enable":true,
-      "speed":2,
-      "direction":"none",
-      "straight":false
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "bounce",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 2417.0090762858035,
+        "rotateY": 5250.743855379505
+      }
     }
   },
-  "interactivity":{
-    "events":{
-      "onhover":{
-        "enable":true,
-        "mode":"repulse"
-      },
-      "onclick":{
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
         "enable": true,
-        "mode":"push"
-      }
-    },
-    "modes":{
-      "repulse":{
-        "distance":50,
-        "duration":0.4
+        "mode": "bubble"
       },
-      "bubble":{
-        "distance":100,
-        "size":10
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 3,
+        "duration": 2,
+        "opacity": 0.9966216216216208,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 30,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
       }
     }
-  }
+  },
+  "retina_detect": true
 }
