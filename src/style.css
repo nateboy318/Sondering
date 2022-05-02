@@ -8,6 +8,7 @@
 body{
   margin:0;
   font-family: SonderFont, serif;
+  font-weight:0;
   color:#333;
   width: 100%;
   height:100%;
@@ -26,10 +27,10 @@ body{
 #logo {
   padding:30px;
   position: absolute;
-  height: 300px;
-  width: 300px;
-  top:30%;
-  left:37%;
+  height: 150px;
+  width: 150px;
+  top:40%;
+  left:42%;
 
 }
 
@@ -65,8 +66,10 @@ h2 {
   #logo {
     padding:30px;
     position: absolute;
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
+    top:40%;
+    left:35%;
   }
 
   h1 {
@@ -80,7 +83,7 @@ h2 {
     font-size: 40px;
     color: white;
     position:absolute;
-    top:42%;
+    top:65%;
     left:30%;
   }
 
@@ -102,8 +105,10 @@ h2 {
   #logo {
     padding:30px;
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    top:40%;
+    left:42%;
   }
 
   h1 {
@@ -117,8 +122,8 @@ h2 {
     font-size: 80px;
     color: white;
     position:absolute;
-    top:42%;
-    left:37%;
+    top:65%;
+    left:30%;
   }
 
 }
