@@ -9,7 +9,7 @@
     "shape":{
       "type":"circle",
       "stroke":{
-        "width":1,
+        "width":0.2,
         "color":"#ccc"
       },
       "image":{
@@ -17,7 +17,7 @@
       }
     },
     "opacity":{
-      "value":0.5,
+      "value":0.2,
       "random":true,
       "anim":{
         "enable":false,
@@ -34,7 +34,8 @@
     },
     "line_linked":{
       "enable": true,
-      "distance": 120,
+      "distance": 150,
+      "opacity": 0.2,
       "color":"#20b5ba",
       "width":1
     },
